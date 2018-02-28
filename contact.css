@@ -1,0 +1,187 @@
+body {
+  margin: -1%;
+  padding-top: 20px;
+  background: url("../images/touch/go.jpg") no-repeat center fixed;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 1400px 740px;
+  background-attachment: fixed;
+  font-family: "Bangers";
+  
+}
+
+  #marvellogo{
+    margin-left: 43%;
+  }
+
+
+   /*added 2/20/18 try and adjust logo*/
+  @media (min-width: 300px){
+    #marvellogo{margin-right: 760px ;}
+  }
+
+
+  /*/*cover example  nav*/
+.masthead {
+  margin-bottom: 2rem;
+
+
+}
+
+.masthead-brand {
+  margin-right: 100px;
+  margin-bottom: 0;
+}
+    
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  float: right;
+  font-weight: 1700;
+  font-size: 30px;
+  color: #bba31f;
+  border-bottom: .25rem solid  transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/*floating icons*/
+
+#social-icons {
+  margin: 0;
+  padding: 0;
+  background-color: #bba31f;
+  position: fixed;
+  top: 15%;
+  left: 0px;
+}
+
+#social-icons a {
+  display: block;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+}
+
+#social-icons .fa {
+  display: block;
+  font-size: 35px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 10;
+  padding: 8px;
+  color: #fff;
+  text-shadow: 3px 3px 3px #222;
+}
+ 
+
+
+    /*validation page*/
+  .Successbody {
+  background-image: url(../images/salute.jpg)no-repeat center center;
+  background-color: #000;
+  background-size: 1400px 750px;
+   background-position: 30%;
+  background-attachment: fixed;
+  margin-bottom: 25px;
+}
+
+  .tyou {
+  margin-top: 15%;
+  color:orange;
+  text-align: center;
+  
+}
+
+  p {
+  margin-top: 40%;
+  font-size: 20px;
+  text-align: center;
+  
+}
+  /*end of validation page*/
+.form {
+  position: fixed;
+  top: 58%;
+  left: 55%;
+  background: #fff;
+  width: 280px;
+  margin: -140px 0 0 -182px;
+  padding: 20px;
+}
+
+.form h2 {
+  margin: 0 0 20px;
+  line-height: 1;
+  color: #215696;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.form input {
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  color: #000;
+  font-family: "raleway";
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+.form input:focus {
+  color: #333;
+  border: 1px solid #44c4e7;
+}
+
+.form button {
+  cursor: pointer;
+  background: #215696;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  color: #fff;
+  font-family: "raleway";
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.form button:hover {
+  background: #000;
+}
+
+
+
+
+
+
+
+
+

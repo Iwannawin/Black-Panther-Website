@@ -1,0 +1,128 @@
+
+body{
+  margin: 1%;
+  background: url("../images/trailers/back.jpg") no-repeat center center;
+  background-color: #000;
+  background-size: 1500px 1000px;
+  font-family: bangers;
+  background-attachment: fixed;
+}
+
+
+.masthead {
+  margin-bottom: 2rem;
+  width: 100%;
+  
+}
+
+
+.masthead-brand {
+  margin-right: 100px;
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  float:right;
+  font-weight: 70;
+  font-size: 30px;
+  color: #BBA31F;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #215696;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+
+}
+  
+ /* Social Icons  on side*/
+
+   #social-icons {
+    margin: 0;
+    padding: 0;
+    background-color:#BBA31F;
+    position: fixed;
+    top: 30%;
+    left: 0px;
+    z-index: 1;
+  }
+
+  #social-icons a {
+    display: block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+  }
+
+  #social-icons .fa {
+    display: block;
+    font-size: 35px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10;
+    padding: 8px;
+    color: white;
+    text-shadow: 3px 3px 3px #222;
+  }
+
+  #social-icons:hover .fa {
+    color: #215696;
+  }
+
+  /*video grid*/
+
+
+.grey-text-header {
+  margin-bottom: 30px;
+  font: green;
+}
+
+.video-with-bar {
+  border-top: 4px solid #bba31f;
+  margin-bottom: 30px;
+  margin-right: 54px;
+
+}
+.video-info {
+  padding: 15px 20px;
+  background-color: transparent;
+  color: white;
+
+}
+
+.video-info h3 h1{
+  margin-top: 0;
+
+}
+
+
+.video-list li {
+  float: left;
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media(max-width: 480px){
+  .video-list li {
+    width: 100%;
+  }
+}
+
+    /*footer*/
+
+       #white{
+        color: white;
+        font-size: 20px;
+      

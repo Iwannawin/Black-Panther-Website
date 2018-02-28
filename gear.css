@@ -1,0 +1,223 @@
+
+ .text-center{
+  height: 100%
+  /*FIX background color*/
+  background-color: green;
+  font-family: 'bangers';
+    }
+
+
+.masthead {
+  font-weight: 70px;
+  margin-bottom: 2rem;
+  width: 100%;
+  
+}
+
+
+.masthead-brand {
+  margin-right: 100px;
+  margin-bottom: 0;
+}
+
+   /*added 2/20/18 try and adjust logo*/
+  @media (min-width: 300px){
+    #marvellogo{margin-left: 46px ;}
+  }
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  float:right;
+  font-weight: 700;
+  font-size: 30px;
+  color: #BBA31F;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #215696;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+
+}
+  
+   #social-icons {
+    margin: 0;
+    padding: 0;
+    background-color:#BBA31F;
+    position: fixed;
+    top: 30%;
+    left: 0px;
+    z-index: 1;
+  }
+
+  #social-icons a {
+    display: block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+  }
+
+  #social-icons .fa {
+    display: block;
+    font-size: 35px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10;
+    padding: 8px;
+    color: white;
+    text-shadow: 3px 3px 3px #222;
+  }
+
+  #social-icons:hover .fa {
+    color: #215696;
+  }
+
+
+
+.merchandise {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 40px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #ffffff;
+  text-align: left;
+  color: #000000;
+  box-shadow: 0 0 25px rgba(255, 250, 250, 0.15);
+  font-size: 16px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-perspective: 20em;
+  perspective: 20em;
+}
+
+.merchandise * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.merchandise img {
+  max-width: 100%;
+  height: 220px;
+  width: 220px;
+  vertical-align: top;
+  position: relative;
+}
+
+.merchandise .add-to-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 10px;
+  color: #ffffff;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  opacity: 0;
+  background-color: #215696;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+.merchandise .add-to-cart i {
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #164666;
+  color: #ffffff;
+  font-size: 1.4em;
+}
+
+.merchandise figcaption {
+  padding: 20px;
+}
+
+.merchandise h3,
+.merchandise p {
+  margin: 0;
+}
+
+.merchandise h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.merchandise p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.merchandise .price {
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 48px;
+  letter-spacing: 1px;
+}
+.merchandise .price s {
+  margin-right: 5px;
+  opacity: 0.5;
+  font-size: 0.9em;
+}
+.merchandise a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.merchandise:hover .add-to-cart,
+.merchandise.hover .add-to-cart {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.merchandise:hover .add-to-cart i,
+.merchandise.hover .add-to-cart i {
+  background-color: black;
+}
+
+
+           /* footer**/
+  li {
+            background: black;
+            border-radius: 50%;
+            float: right;
+            height: 50px;
+            list-style: none;
+            margin: 0 10px;
+            width: 50px;
+     
+          }
+         
+
+         /* footer text*/
+
+       #white{
+        color: white;
+        font-family: bangers;
+        font-size: 20px;
+       }
+
+
+

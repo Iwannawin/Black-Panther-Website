@@ -1,0 +1,230 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Biopage</title>
+      <!-- Bootstrap core CSS -->
+      <link href="./css/bootstrap.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          <!--google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Bangers|Oswald|Questrial|Ropa+Sans" rel="stylesheet">   
+          <!-- fa-fa fonts -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+      <!-- Custom styles for this template -->
+      <link href="./css/cover.css" rel="stylesheet">
+                  <!-- jquery cdn -->
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+                 <script>
+                      $(function() {
+
+                      $('p span.hidden').hide();
+                        $('a.read_more').click(function() {
+
+                        if ($(this).text() == 'Read More')
+                         {
+
+                         $(this).parent().find("span.hidden").show();
+                         $(this).text( 'Read Less' ); 
+
+                      }
+
+                      else  {
+                           $(this).parent().find('span.hidden').hide();
+                            $(this).text( 'Read More' );
+                      }
+                          return false;
+                        }).show();
+                        
+                       });
+                 </script> 
+
+       </head>
+       <body  id="body"  class="text-center">
+        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+           <div class="inner">
+            <img id="marvellogo" class="masthead-brand" src="./images/logo/marvel_panther logo.png" width="200" height="100">
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="home.html">HOME</a>
+             <!-- create dropdown for about -->
+             <a class="nav-link active" href="characters.html">Characters</a>
+              <a class="nav-link" href="trailers.html">TRAILERS</a>
+             <a class="nav-link" href="blog.html">BLOG</a>
+             <a class="nav-link" href="gear.html">GEAR</a>
+             <a class="nav-link" href="contact.html">CONTACT</a>
+            <a class="nav-link" href="https://www.fandango.com/black-panther-202991/movie-overview">BUY TICKETS</a>
+         </nav>
+       </div>
+                 <!-- floating icons -->  
+    <div id="social-icons">
+         <a href="https://www.facebook.com/BlackPantherMovie/" title="Facebook"><i class="fa fa-facebook"></i></a>
+
+        <a href="https://twitter.com/theblackpanther?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="Twitter"><i class="fa fa-twitter"></i></a>
+         <a href="https://youtu.be/vt9UZo32KMk" title="Youtube"><i class="fa fa-youtube-play"></i></a>
+          <a href="https://www.instagram.com/explore/tags/blackpanther/?hl=en" title="instagram"><i class="fa fa-instagram"></i></a>
+     </div>
+   </header>
+   <main>
+    <div id="container">
+    <div id="history">
+          <!-- need to add jquery hide and show       -->
+    <table>
+        <tr>
+          <td><h5>Real Name</h5></td>
+          <td>T'challa</td>
+        </tr>
+        <tr>
+          <td><h5>Birth Place</h5></td>
+          <td>Wakanda</td>
+        </tr>
+        <tr>
+         <td><h5><p>Height</p><p>Weight</p></h5></td>
+          <td><p>6'</p><p>200lbs</p></td>
+          
+        </tr>
+        <tr>
+          <td><h5>Occupation</h5></td>
+          <td>King of Wakanda<br>Scientist<br></td>
+        </tr>
+        <tr>
+          <td><h5>Aliases</h5></td>
+          <td>Luke Charles<br>Black Leopeard<br>
+          <span class="hidden">Nubian Prince<br>The Client<br>
+          Coal Tiger<br></span><br>
+          <a href="" class="read_more" style="display: none;">Read More...</a>
+          </td>
+        </tr>
+         <tr>
+          <td><h5>Powers </h5></td>
+         <td>T'Challa's senses and physicalattributes have been enhanced to superhuman levels by the heart-shaped herb.</td>
+        </tr>
+        <tr>
+         <tr>
+          <td><h5>Abilities </h5></td>
+          <td> T'Challa is a brilliant tactician, strategist and scientist.<span class="hidden"> A tracker and a master of all forms of unarmed combat whose unique hybrid fighting style incorporates acrobatics and aspects of animal mimicry.</span><br>
+          <a href="" class="read_more" style="display: none;">Read More...</a> 
+        </tr>
+          <td><h5>First Appearance</h5></td>
+          <td> Fantastic Four Vol. 1 #52 (1966)</td>
+        </tr>
+    </table>
+              </div>
+              
+              <div id="biobox">
+                <img class="img-fluid" src="./images/charcters/bprofile.png">
+             </div>
+
+
+    <div class="col-sm-4" id="right">
+      <div class="comicbook">
+        <div class="comicbook">
+         <img id="comic2 " class="img-fluid" src="./images/charcters/bpcomic3.jpeg"> 
+      </div>
+
+     <div class="comicbook">
+        <img id="comic3 " class="img-fluid" src="./images/charcters/bpcomic1.jpeg"> 
+     </div>
+    
+     <div class="comicbook">
+        <img id="comic4" class="img-fluid" src="
+        ./images/charcters/bpcomic2.jpeg"> 
+     </div>
+    </div>
+    </div>
+  </main>
+    <br>
+    <br>
+      
+                 <!-- Footer -->
+  <footer id="footer_about" class="page-footer stylish-color-dark">
+     <hr style="height:2px; background-color: #bba31f; "/>
+    <hr>
+    <!-- Footer Links -->
+    <div id= "footer_about" class="container">
+
+        <!-- Footer links  -->
+        <div class="row text-center text-md-left mt-3 pb-3"> 
+
+            <!-- First column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            </div> 
+            <!-- /.First column -->
+            <hr  class="w-100 clearfix d-md-none">
+
+            <!-- <!-Second column -->
+            <div  class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6  id="white" class="mb-4 "
+              >Insider</h6>
+                <p><a id="white"href="#!">Rewards</a></p>
+                <p><a  id="white" href="#!">Join Today</a></p>
+                <p><a id="white" href="#!">FAQS</a></p>
+                <p><a id="white" href="#!">member profile</a></p>
+            </div>
+            <!--/.Second column-->
+
+            <hr  class="w-100 clearfix d-md-none">
+            <!--Third column-->
+            <div id="white"  class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" >
+                <h6  class="white mb-4 font-bold">Useful links</h6>
+                <p ><a id="white" href="#!">Your Account</a></p>
+                <p ><a id="white" href="#!">Become an Affiliate</a></p>
+                <p ><a id="white" href="#!">Marketing</a></p>
+                <p ><a id="white" href="#!">Help</a></p>
+            </div>
+            <!--/.Third column-->
+
+            <hr  class="w-100 clearfix d-md-none">
+
+            <!--Fourth column-->
+            <div id="white" class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="white mb-4 font-bold">Contact</h6>
+                <p><i class="fa fa-home mr-3"></i>Roxbury,MA 02119</p>
+                <p><i class="fa fa-envelope mr-3"></i>tshennete@gmail.com</p>
+                <p><i class="fa fa-phone mr-3"></i>+01-617-442-9500</p>
+                <p ><i class="fa fa-print mr-3"></i>+01-617-442-9600</p>
+            </div>
+             <a id="white" href="#">Back to top</a>
+                <!--/.Fourth column-->
+
+        </div>
+
+                <!-- Footer links -->
+
+        <hr style="height:2px;background-color:#bba31f;" />
+        <div class="row py-3 d-flex align-items-center">
+
+            <!--Grid column-->
+            <div class="col-md-8 col-lg-9">
+
+                <!--Copyright-->
+                 <p  class="text-center text-md-left grey-text white">2018 Copyright: <a id="white"href="https://www.iwannawin2.com"> iwannawin2.com</a></p>
+                 </.Copyright   
+            </div> 
+         </div>
+        </div>
+      </footer>
+                    <!--/.Footer-->
+                
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+   <script>window.jQuery || document.write('<script src="./js/jquery-slim.min.js"><\/script>')</script>
+   <script src="./js/jQuery.js"></script>
+
+                  <!-- bootstrap local files -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+     <script src="./js/holder.min.js"></script>
+
+  </body>
+</html>

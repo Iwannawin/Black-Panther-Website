@@ -1,0 +1,141 @@
+body{
+  margin: 1%;
+  background:no-repeat center center;
+  background-color: #000;
+  
+  /*use background cover and size on other pages*/
+
+  /*webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  /*background-size: 2048px 1365px;
+  background-position: 50%;*/
+  font-family: bangers;
+  background-attachment: fixed;
+}
+
+
+.masthead {
+  font-weight: 70px;
+  margin-bottom: 2rem;
+  width: 100%;
+  
+}
+
+
+.masthead-brand {
+  margin-right: 100px;
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  float:right;
+  font-weight: 70;
+  font-size: 30px;
+  color: #BBA31F;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+@media (max-width: 590px) {
+  #contact {
+    margin-right: 113px;
+    padding-left;
+    
+  }
+}
+
+@media (max-width: 480px) {
+  #gear {
+    left: 0;
+    
+  }
+}
+/*need to fix nav*/
+@media (max-width: 410px) {
+  #blog {
+    left: 0;
+    transform: translate(0%, -100%);
+  }
+}
+
+@media (max-width: 340                                                                                                                                                                               px) {
+  #trailers{
+    left: 0;
+    transform: translate(0%, -100%);
+  }
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #215696;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+
+}
+ /*adjust with media quries*/
+#marvellogo {
+  margin-left: 350px;
+}
+  
+ /* Social Icons  on side*/
+
+   #social-icons {
+    margin: 0;
+    padding: 0;
+    background-color:#BBA31F;
+    position: fixed;
+    top: 30%;
+    left: 0px;
+    z-index: 1;
+  }
+
+  #social-icons a {
+    display: block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+  }
+
+  #social-icons .fa {
+    display: block;
+    font-size: 35px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10;
+    padding: 8px;
+    color: white;
+    text-shadow: 3px 3px 3px #222;
+  }
+
+  #social-icons:hover .fa {
+    color: #215696;
+  }
+
+
+  #stance  {
+    height: 20%;
+    background-attachment: fixed;
+   /* margin-left: 14%;*/
+  }
+
+
+
+          /*footer text*/
+
+      
+       #white{
+        color: white;
+        font-size: 20px;
+       }
+
+ 
+
+ 
